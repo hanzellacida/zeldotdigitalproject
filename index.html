@@ -1,195 +1,404 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zel.Digital - Portfolio and Services</title>
-    <link rel="icon" href="https://www.zeldigital.com" type="image/x-icon">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        header {
-            background-image: url('images/brand\ logo.png');
-            background-repeat: no-repeat;
-            background-position: center;
-            background-size:contain;
-            background-color: #ffffff;
-            color: #fff;
-            padding: 99px 0; /* Adjust padding to your needs */
-            text-align: center;
-            position: relative;
-        }
-        header h1, header p {
-            position: relative;
-            z-index: 2;
-            color: transparent; /* Makes the text invisible */
-        }
-        nav {
-            text-align: center;
-            padding: 10px 0;
-        }
-        nav a {
-            color: #333;
-            text-decoration: none;
-            margin: 0 15px;
-        }
-        .container {
-            width: 80%;
-            margin: auto;
-            overflow: hidden;
-        }
-        .section {
-            padding: 20px 0;
-        }
-        .portfolio, .reviews, .services {
-            display: flex;
-            justify-content: space-around;
-        }
-        .portfolio img, .reviews img, .services img {
-            width: 100%;
-            max-width: 300px;
-            height: auto;
-        }
-        footer {
-            background-color: #000000;
-            color: #fff;
-            text-align: center;
-            padding: 10px 0;
-            position: relative;
-            width: 100%;
-        }
-        .footer-note {
-            margin-top: 10px;
-            font-size: 0.9em;
-        }
-        .testimonials {
-            background-color: #fff;
-            padding: 20px;
-            border-top: 1px solid #ddd;
-        }
-        .testimonials h2 {
-            text-align: center;
-            color: #333;
-        }
-        .testimonial-item {
-            margin: 10px 0;
-        }
-        .testimonial-item p {
-            font-style: italic;
-        }
-        .testimonial-item span {
-            display: block;
-            text-align: right;
-            font-weight: bold;
-            margin-top: 5px;
-        }
-        .more-testimonials {
-            display: block;
-            width: 200px;
-            margin: 20px auto;
-            padding: 10px;
-            text-align: center;
-            background-color: #333;
-            color: #fff;
-            text-decoration: none;
-            border-radius: 5px;
-        }
-    </style>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Evelyn Template</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,400i|PT+Serif:700" rel="stylesheet">
+    <link rel="stylesheet" href="dist/css/style.css">
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
 </head>
-<body>
-    <header>
-        <h1>Zel.Digital</h1>
-        <p>Showcasing Portfolio Design, Product Reviews, & Services</p>
-    </header>
-    <nav>
-        <a href="https://overview.zeldigital.com/">Overview</a>
-        <a href="#portfolio">Portfolio</a>
-        <a href="#reviews">Product Reviews</a>
-        <a href="https://www.zeldigital.com/services">Services</a>
-    </nav>
-    <div class="container">
-        <section id="portfolio" class="section">
-            <h2>Portfolio</h2>
-            <div class="portfolio">
-                <div>
-                    <a href="https://overview.zeldigital.com">
-                        <img src="images/overview.png" alt="Portfolio 1">
-                    </a>
-                    <p>Overview</p>
-                </div>
-                
-            </div>
-        </section>
-        <section id="reviews" class="section">
-            <h2>Product Reviews</h2>
-            <div class="reviews">
-                <div>
-                    <a href="https://evcarscebu.zel.digital/">
-                        <img src="images/evcarscebu.png" alt="Review 1">
-                    </a>
-                    <p>EV Cars in Cebu</p>
-                </div>
-                <div>
-                    <a href="https://www.example.com/review2">
-                        <img src="review2.jpg" alt="Review 2">
-                    </a>
-                    <p>Under Construction</p>
-                </div>
-                <div>
-                    <a href="https://www.example.com/review3">
-                        <img src="review3.jpg" alt="Review 3">
-                    </a>
-                    <p>Under Construction</p>
+<body class="is-boxed has-animations">
+    <div class="body-wrap boxed-container">
+        <header class="site-header">
+            <div class="container">
+                <div class="site-header-inner">
+                    <div class="brand header-brand">
+                        <h1 class="m-0">
+                            <a href="#">
+                                <img src="imgs/zel digital brand logo.jpg" alt="ZELDIGITAL" width="32" height="32">
+                            </a>
+                        </h1>
+                    </div>
+                    <ul class="header-links list-reset m-0">
+                        <li>
+                            <a href="https://overview.zeldigital.com/overview/portfolio">Portfolio</a>
+                        </li>
+                        <li>
+                            <a class="button button-sm button-shadow" href="https://tidycal.com/zeldigital/discovery-call">Book A Call</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
-        </section>
-        <section id="services" class="section">
-            <h2>Services</h2>
-            <div class="services">
-                <div>
-                    <a href="https://www.example.com/service1">
-                        <img src="service1.jpg" alt="Service 1">
-                    </a>
-                    <p>Under Construction</p>
+        </header>
+
+        <main>
+            <section class="hero text-light text-center">
+                <div class="container-sm">
+                    <div class="hero-inner">
+                        <h1 class="hero-title h2-mobile mt-0 is-revealing">Struggling to See Results? Zeldigital Can Help.</h1>
+                        <p class="hero-paragraph is-revealing">Transform your business with expert PPC strategies tailored to your preferred platform, and start scaling effectively today.</p>
+                        <p class="hero-cta is-revealing"><a class="button button-secondary button-shadow" href="https://tidycal.com/zeldigital/discovery-call">Book a Call Now</a></p>
+                    
+                    </div>
                 </div>
-                <div>
-                    <a href="https://www.example.com/service2">
-                        <img src="service2.jpg" alt="Service 2">
-                    </a>
-                    <p>Under Construction</p>
+            </section>
+
+            <section class="clients section">
+                <div class="container">
+                    <div class="clients-inner section-inner has-top-divider">
+                        <div class="container-sm">
+                            <ul class="list-reset mb-0">
+                                <li>
+                                    <img src="imgs/our customers zel digital.png" alt="Our Customers" width="1920" height="1080">
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-                <div>
-                    <a href="https://www.example.com/service3">
-                        <img src="service3.jpg" alt="Service 3">
-                    </a>
-                    <p>Under Construction</p>
+            </section>
+            
+
+            <section class="features section text-center">
+                <div class="container">
+                    <div class="features-inner section-inner has-top-divider">
+                        <h2 class="section-title mt-0">Product Features</h2>
+                        <div class="features-wrap">
+                            <div class="feature is-revealing">
+                                <div class="feature-inner">
+                                    <div class="feature-icon">
+                                        <img src="imgs/g ads logo.png" alt="Expert Google Ads" width="48" height="48">
+                                    </div>
+                                    <h4 class="feature-title h3-mobile">Expert Google Ads Management</h4>
+                                    <p class="text-sm">Our seasoned professionals manage your Google Ads campaigns with precision, ensuring optimal performance and maximum ROI.</p>
+                                </div>
+                            </div>
+                            <div class="feature is-revealing">
+                                <div class="feature-inner">
+                                    <div class="feature-icon">
+                                        <img src="imgs/google-analytics-icon.webp" alt="Expert GA4 Google Analytics" width="48" height="48">
+                                    </div>
+                                    <h4 class="feature-title h3-mobile">Detailed Analytics & Reporting</h4>
+                                    <p class="text-sm">Access comprehensive reports and actionable insights that help you make data-driven decisions for your business.</p>
+                                </div>
+                            </div>
+                            <div class="feature is-revealing">
+                                <div class="feature-inner">
+                                    <div class="feature-icon">
+                                        <img src="imgs/ppc icon.png" alt="PPC Platforms management Icon" width="48" height="48">
+                                    </div>
+                                    <h4 class="feature-title h3-mobile">Flexible PPC Management</h4>
+                                    <p class="text-sm">Whether you need full management or support for specific campaigns, our flexible services adapt to your needs.</p>
+                                </div>
+                            </div>
+                            <div class="feature is-revealing">
+                                <div class="feature-inner">
+                                    <div class="feature-icon">
+                                        <img src="imgs/247 customer support.png" alt="24 7 support" width="48" height="48">
+                                    </div>
+                                    <h4 class="feature-title h3-mobile">24/7 Customer Support</h4>
+                                    <p class="text-sm">We provide round-the-clock support to ensure your campaigns run smoothly and address any concerns promptly.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+
+            
+            
+            <section class="pricing-section">
+                <h2 class="section-title mt-0 text-center">Pricing</h2>
+                <div class="pricing-container">
+                    <div class="pricing-table is-revealing">
+                        <div class="pricing-table-inner">
+                            <div class="pricing-table-main">
+                                <div class="pricing-table-header">
+                                    <div class="pricing-table-title mt-12 mb-16 text-primary">Standard Plan</div>
+                                    <div class="pricing-table-price mb-24 pb-32">
+                                        <span class="pricing-table-price-currency h3">$</span>
+                                        <span class="pricing-table-price-amount h1">2,500</span>
+                                    </div>
+                                </div>
+                                <ul class="pricing-table-features list-reset text-xs mb-56">
+                                    <li>
+                                        <span class="list-icon">
+                                            <svg width="16" height="12" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M14.3.3L5 9.6 1.7 6.3c-.4-.4-1-.4-1.4 0-.4.4-.4 1 0 1.4l4 4c.2.2.4.3.7.3.3 0 .5-.1.7-.3l10-10c.4-.4.4-1 0-1.4-.4-.4-1-.4-1.4 0z" fill="#00A2B8" fill-rule="nonzero"/>
+                                            </svg>
+                                        </span>
+                                        <span>Monthly Subscription Cost: $2,500</span>
+                                    </li>
+                            <li>
+                                <span class="list-icon">
+                                    <svg width="16" height="12" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M14.3.3L5 9.6 1.7 6.3c-.4-.4-1-.4-1.4 0-.4.4-.4 1 0 1.4l4 4c.2.2.4.3.7.3.3 0 .5-.1.7-.3l10-10c.4-.4.4-1 0-1.4-.4-.4-1-.4-1.4 0z" fill="#00A2B8" fill-rule="nonzero"/>
+                                    </svg>
+                                </span>
+                                <span>Ad Spend Requirement: Minimum of $5,000 per month</span>
+                            </li>
+                            <li>
+                                <span class="list-icon">
+                                    <svg width="16" height="12" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M14.3.3L5 9.6 1.7 6.3c-.4-.4-1-.4-1.4 0-.4.4-.4 1 0 1.4l4 4c.2.2.4.3.7.3.3 0 .5-.1.7-.3l10-10c.4-.4.4-1 0-1.4-.4-.4-1-.4-1.4 0z" fill="#00A2B8" fill-rule="nonzero"/>
+                                    </svg>
+                                </span>
+                                <span>Designed For: Companies and sole proprietors focused on sustainable growth with annual revenue goals of at least $50,000.</span>
+                            </li>
+                            <li>
+                                <span class="list-icon">
+                                    <svg width="16" height="12" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M14.3.3L5 9.6 1.7 6.3c-.4-.4-1-.4-1.4 0-.4.4-.4 1 0 1.4l4 4c.2.2.4.3.7.3.3 0 .5-.1.7-.3l10-10c.4-.4.4-1 0-1.4-.4-.4-1-.4-1.4 0z" fill="#00A2B8" fill-rule="nonzero"/>
+                                    </svg>
+                                </span>
+                                <span>Services Included:</span>
+                            </li>
+                            <li>
+                                <span class="list-icon">
+                                    <svg width="16" height="12" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M14.3.3L5 9.6 1.7 6.3c-.4-.4-1-.4-1.4 0-.4.4-.4 1 0 1.4l4 4c.2.2.4.3.7.3.3 0 .5-.1.7-.3l10-10c.4-.4.4-1 0-1.4-.4-.4-1-.4-1.4 0z" fill="#00A2B8" fill-rule="nonzero"/>
+                                    </svg>
+                                </span>
+                                <span>Creation and management of up to 5 ad campaigns</span>
+                            </li>
+                            <li>
+                                <span class="list-icon">
+                                    <svg width="16" height="12" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M14.3.3L5 9.6 1.7 6.3c-.4-.4-1-.4-1.4 0-.4.4-.4 1 0 1.4l4 4c.2.2.4.3.7.3.3 0 .5-.1.7-.3l10-10c.4-.4.4-1 0-1.4-.4-.4-1-.4-1.4 0z" fill="#00A2B8" fill-rule="nonzero"/>
+                                    </svg>
+                                </span>
+                                <span>Advanced keyword research and targeting</span>
+                            </li>
+                            <li>
+                                <span class="list-icon">
+                                    <svg width="16" height="12" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M14.3.3L5 9.6 1.7 6.3c-.4-.4-1-.4-1.4 0-.4.4-.4 1 0 1.4l4 4c.2.2.4.3.7.3.3 0 .5-.1.7-.3l10-10c.4-.4.4-1 0-1.4-.4-.4-1-.4-1.4 0z" fill="#00A2B8" fill-rule="nonzero"/>
+                                    </svg>
+                                </span>
+                                <span>Detailed ad copywriting for all ads, emails, and landing pages</span>
+                            </li>
+                            <li>
+                                <span class="list-icon">
+                                    <svg width="16" height="12" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M14.3.3L5 9.6 1.7 6.3c-.4-.4-1-.4-1.4 0-.4.4-.4 1 0 1.4l4 4c.2.2.4.3.7.3.3 0 .5-.1.7-.3l10-10c.4-.4.4-1 0-1.4-.4-.4-1-.4-1.4 0z" fill="#00A2B8" fill-rule="nonzero"/>
+                                    </svg>
+                                </span>
+                                <span>A/B testing of ad copies</span>
+                            </li>
+                            <li>
+                                <span class="list-icon">
+                                    <svg width="16" height="12" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M14.3.3L5 9.6 1.7 6.3c-.4-.4-1-.4-1.4 0-.4.4-.4 1 0 1.4l4 4c.2.2.4.3.7.3.3 0 .5-.1.7-.3l10-10c.4-.4.4-1 0-1.4-.4-.4-1-.4-1.4 0z" fill="#00A2B8" fill-rule="nonzero"/>
+                                    </svg>
+                                </span>
+                                <span>Weekly performance reports and insights</span>
+                            </li>
+                            <li>
+                                <span class="list-icon">
+                                    <svg width="16" height="12" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M14.3.3L5 9.6 1.7 6.3c-.4-.4-1-.4-1.4 0-.4.4-.4 1 0 1.4l4 4c.2.2.4.3.7.3.3 0 .5-.1.7-.3l10-10c.4-.4.4-1 0-1.4-.4-.4-1-.4-1.4 0z" fill="#00A2B8" fill-rule="nonzero"/>
+                                    </svg>
+                                </span>
+                                <span>Priority email and phone support</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="pricing-table-cta">
+                        <a class="button button-primary button-block" href="https://whop.com/checkout/UOhwYNENH5rXH4b5L-5UoK-bUaO-5Kk9-5vGYBtDZIJnd/">Buy Now</a>
+                    </div>
                 </div>
             </div>
-        </section>
-    </div>
-    <section class="testimonials">
-        <h2>Testimonials</h2>
-        <div class="testimonial-item">
-            <p>"Zel.Digital has transformed our online presence. Their expertise in Google Ads management is unparalleled."</p>
-            <span>- Anonymous Client under NDA</span>
+            
+            <div class="pricing-table is-revealing">
+                <div class="pricing-table-inner">
+                    <div class="pricing-table-main">
+                        <div class="pricing-table-header">
+                            <div class="pricing-table-title mt-12 mb-16 text-primary">Premium Plan</div>
+                            <div class="pricing-table-price mb-24 pb-32">
+                                <span class="pricing-table-price-currency h3">$</span>
+                                <span class="pricing-table-price-amount h1">5,000</span>
+                            </div>
+                        </div>
+                        <ul class="pricing-table-features list-reset text-xs mb-56">
+                            <li>
+                                <span class="list-icon">
+                                    <svg width="16" height="12" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M14.3.3L5 9.6 1.7 6.3c-.4-.4-1-.4-1.4 0-.4.4-.4 1 0 1.4l4 4c.2.2.4.3.7.3.3 0 .5-.1.7-.3l10-10c.4-.4.4-1 0-1.4-.4-.4-1-.4-1.4 0z" fill="#00A2B8" fill-rule="nonzero"/>
+                                    </svg>
+                                </span>
+                                <span>Monthly Subscription Cost: $5,000</span>
+                            </li>
+                            <li>
+                                <span class="list-icon">
+                                    <svg width="16" height="12" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M14.3.3L5 9.6 1.7 6.3c-.4-.4-1-.4-1.4 0-.4.4-.4 1 0 1.4l4 4c.2.2.4.3.7.3.3 0 .5-.1.7-.3l10-10c.4-.4.4-1 0-1.4-.4-.4-1-.4-1.4 0z" fill="#00A2B8" fill-rule="nonzero"/>
+                                    </svg>
+                                </span>
+                                <span>Ad Spend Requirement: Minimum of $10,000 per month</span>
+                            </li>
+                            <li>
+                                <span class="list-icon">
+                                    <svg width="16" height="12" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M14.3.3L5 9.6 1.7 6.3c-.4-.4-1-.4-1.4 0-.4.4-.4 1 0 1.4l4 4c.2.2.4.3.7.3.3 0 .5-.1.7-.3l10-10c.4-.4.4-1 0-1.4-.4-.4-1-.4-1.4 0z" fill="#00A2B8" fill-rule="nonzero"/>
+                                    </svg>
+                                </span>
+                                <span>Designed For: Established businesses aiming for aggressive growth with annual revenue goals of at least $100,000.</span>
+                            </li>
+                            <li>
+                                <span class="list-icon">
+                                    <svg width="16" height="12" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M14.3.3L5 9.6 1.7 6.3c-.4-.4-1-.4-1.4 0-.4.4-.4 1 0 1.4l4 4c.2.2.4.3.7.3.3 0 .5-.1.7-.3l10-10c.4-.4.4-1 0-1.4-.4-.4-1-.4-1.4 0z" fill="#00A2B8" fill-rule="nonzero"/>
+                                    </svg>
+                                </span>
+                                <span>Services Included:</span>
+                            </li>
+                            <li>
+                                <span class="list-icon">
+                                    <svg width="16" height="12" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M14.3.3L5 9.6 1.7 6.3c-.4-.4-1-.4-1.4 0-.4.4-.4 1 0 1.4l4 4c.2.2.4.3.7.3.3 0 .5-.1.7-.3l10-10c.4-.4.4-1 0-1.4-.4-.4-1-.4-1.4 0z" fill="#00A2B8" fill-rule="nonzero"/>
+                                    </svg>
+                                </span>
+                                <span>All services from the Standard Plan</span>
+                            </li>
+                            <li>
+                                <span class="list-icon">
+                                    <svg width="16" height="12" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M14.3.3L5 9.6 1.7 6.3c-.4-.4-1-.4-1.4 0-.4.4-.4 1 0 1.4l4 4c.2.2.4.3.7.3.3 0 .5-.1.7-.3l10-10c.4-.4.4-1 0-1.4-.4-.4-1-.4-1.4 0z" fill="#00A2B8" fill-rule="nonzero"/>
+                                    </svg>
+                                </span>
+                                <span>Creation and management of unlimited ad campaigns</span>
+                            </li>
+                            <li>
+                                <span class="list-icon">
+                                    <svg width="16" height="12" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M14.3.3L5 9.6 1.7 6.3c-.4-.4-1-.4-1.4 0-.4.4-.4 1 0 1.4l4 4c.2.2.4.3.7.3.3 0 .5-.1.7-.3l10-10c.4-.4.4-1 0-1.4-.4-.4-1-.4-1.4 0z" fill="#00A2B8" fill-rule="nonzero"/>
+                                    </svg>
+                                </span>
+                                <span>Comprehensive keyword research and competitor analysis</span>
+                            </li>
+                            <li>
+                                <span class="list-icon">
+                                    <svg width="16" height="12" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M14.3.3L5 9.6 1.7 6.3c-.4-.4-1-.4-1.4 0-.4.4-.4 1 0 1.4l4 4c.2.2.4.3.7.3.3 0 .5-.1.7-.3l10-10c.4-.4.4-1 0-1.4-.4-.4-1-.4-1.4 0z" fill="#00A2B8" fill-rule="nonzero"/>
+                                    </svg>
+                                </span>
+                                <span>Customized ad copywriting and landing page optimization</span>
+                            </li>
+                            <li>
+                                <span class="list-icon">
+                                    <svg width="16" height="12" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M14.3.3L5 9.6 1.7 6.3c-.4-.4-1-.4-1.4 0-.4.4-.4 1 0 1.4l4 4c.2.2.4.3.7.3.3 0 .5-.1.7-.3l10-10c.4-.4.4-1 0-1.4-.4-.4-1-.4-1.4 0z" fill="#00A2B8" fill-rule="nonzero"/>
+                                    </svg>
+                                </span>
+                                <span>In-depth A/B testing and conversion rate optimization</span>
+                            </li>
+                            <li>
+                                <span class="list-icon">
+                                    <svg width="16" height="12" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M14.3.3L5 9.6 1.7 6.3c-.4-.4-1-.4-1.4 0-.4.4-.4 1 0 1.4l4 4c.2.2.4.3.7.3.3 0 .5-.1.7-.3l10-10c.4-.4.4-1 0-1.4-.4-.4-1-.4-1.4 0z" fill="#00A2B8" fill-rule="nonzero"/>
+                                    </svg>
+                                </span>
+                                <span>Dedicated senior account manager</span>
+                            </li>
+                            <li>
+                                <span class="list-icon">
+                                    <svg width="16" height="12" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M14.3.3L5 9.6 1.7 6.3c-.4-.4-1-.4-1.4 0-.4.4-.4 1 0 1.4l4 4c.2.2.4.3.7.3.3 0 .5-.1.7-.3l10-10c.4-.4.4-1 0-1.4-.4-.4-1-.4-1.4 0z" fill="#00A2B8" fill-rule="nonzero"/>
+                                    </svg>
+                                </span>
+                                <span>24/7 premium customer support</span>
+                            </li>
+                            <li>
+                                <span class="list-icon">
+                                    <svg width="16" height="12" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M14.3.3L5 9.6 1.7 6.3c-.4-.4-1-.4-1.4 0-.4.4-.4 1 0 1.4l4 4c.2.2.4.3.7.3.3 0 .5-.1.7-.3l10-10c.4-.4.4-1 0-1.4-.4-.4-1-.4-1.4 0z" fill="#00A2B8" fill-rule="nonzero"/>
+                                    </svg>
+                                </span>
+                                <span>Quarterly performance reviews and strategic planning sessions</span>
+                            </li>
+                            <li>
+                                <span class="list-icon">
+                                    <svg width="16" height="12" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M14.3.3L5 9.6 1.7 6.3c-.4-.4-1-.4-1.4 0-.4.4-.4 1 0 1.4l4 4c.2.2.4.3.7.3.3 0 .5-.1.7-.3l10-10c.4-.4.4-1 0-1.4-.4-.4-1-.4-1.4 0z" fill="#00A2B8" fill-rule="nonzero"/>
+                                    </svg>
+                                </span>
+                                <span>Detailed analytics and insights with customized dashboards</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="pricing-table-cta">
+                        <a class="button button-primary button-block" href="https://whop.com/checkout/38c5YvCdpJBkU0JSgN-Ddzg-6Hf6-PC2P-fhCnEcfVZu7e/">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+        </center>   
+
+       <section class="features section text-center">
+        <div class="container">
+            <div class="features-inner section-inner has-top-divider">
+                <h2 class="section-title mt-0">BOOK A CALL</h2>
+                <div class="features-wrap">
+                    <div class="tidycal-embed" data-path="zeldigital/discovery-call"></div><script src="https://asset-tidycal.b-cdn.net/js/embed.js" async></script>
+                </div>
+            </div>
         </div>
-        <div class="testimonial-item">
-            <p>"ZELDIGITAL's work resulted in increased revenue, click-through rates, online visibility, and site traffic. They delivered everything on time and maintained open communication throughout. Their meticulous attention to detail, deep digital marketing expertise, and proactive problem-solving stood out."</p>
-            <span>- Clutch Client Review</span>
-        </div>
-        <div class="testimonial-item">
-            <p>"The team at ZELDIGITAL exhibited deep expertise in digital marketing, particularly in Google Shopping Ads and Performance Max campaigns."</p>
-            <span>- Anonymous Client under NDA</span>
-        </div>
-        <a href="https://www.zeldigital.com/testimonials" class="more-testimonials">See More Testimonials</a>
     </section>
-    <footer>
-        <p>&copy; 2024 ZelDigital. All rights reserved.</p>
-        <p class="footer-note">Website Development & SEO by <a href="https://www.zeldigital.com" style="color: #59a6f4; text-decoration: none;">ZelDigital.com</a></p>
-    </footer>
+
+        <footer class="site-footer">
+            <div class="container">
+                <div class="site-footer-inner">
+                    <div class="brand footer-brand">
+                        <a href="#">
+                            <img src="imgs/zel digital brand logo.jpg" alt="ZELDIGITAL" width="32" height="32">
+                        </a>
+                    </div>
+                    <ul class="footer-links list-reset">
+                        <li>
+                            <a href="https://overview.zeldigital.com/contact/how-to-contact-zeldigital">Contact</a>
+                        </li>
+                        <li>
+                            <a href="https://www.zeldigital.com/about">About us</a>
+                        </li>
+                        <li>
+                            <a href="https://overview.zeldigital.com/overview/pricing">Pricing</a>
+                        </li>
+                        <li>
+                            <a href="https://overview.zeldigital.com/contact/how-to-contact-zeldigital">Support</a>
+                        </li>
+                    </ul>
+                    <ul class="footer-social-links list-reset">
+                        <li>
+                            <a href="https://www.facebook.com/zeldigital">
+                                <span class="screen-reader-text">Facebook</span>
+                                <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M6.023 16L6 9H3V6h3V4c0-2.7 1.672-4 4.08-4 1.153 0 2.144.086 2.433.124v2.821h-1.67c-1.31 0-1.563.623-1.563 1.536V6H13l-1 3H9.28v7H6.023z" fill="#0EB3CE"/>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.x.com/ppczeldigital">
+                                <span class="screen-reader-text">Twitter</span>
+                                <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M16 3c-.6.3-1.2.4-1.9.5.7-.4 1.2-1 1.4-1.8-.6.4-1.3.6-2.1.8-.6-.6-1.5-1-2.4-1-1.7 0-3.2 1.5-3.2 3.3 0 .3 0 .5.1.7-2.7-.1-5.2-1.4-6.8-3.4-.3.5-.4 1-.4 1.7 0 1.1.6 2.1 1.5 2.7-.5 0-1-.2-1.5-.4C.7 7.7 1.8 9 3.3 9.3c-.3.1-.6.1-.9.1-.2 0-.4 0-.6-.1.4 1.3 1.6 2.3 3.1 2.3-1.1.9-2.5 1.4-4.1 1.4H0c1.5.9 3.2 1.5 5 1.5 6 0 9.3-5 9.3-9.3v-.4C15 4.3 15.6 3.7 16 3z" fill="#0EB3CE"/>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://bit.ly/3yqyYwa">
+                                <span class="screen-reader-text">Google Me</span>
+                                <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M7.9 7v2.4H12c-.2 1-1.2 3-4 3-2.4 0-4.3-2-4.3-4.4 0-2.4 2-4.4 4.3-4.4 1.4 0 2.3.6 2.8 1.1l1.9-1.8C11.5 1.7 9.9 1 8 1 4.1 1 1 4.1 1 8s3.1 7 7 7c4 0 6.7-2.8 6.7-6.8 0-.5 0-.8-.1-1.2H7.9z" fill="#0EB3CE"/>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="footer-copyright">&copy; 2024 ZEL DIGITAL MARKETING SERVICES OPC T/A ZELDIGITAL, all rights reserved</div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="dist/js/main.min.js"></script>
 </body>
 </html>
